@@ -24,7 +24,7 @@ Find more about Julia [here](https://docs.julialang.org/).
    cd ~/Downloads
 3. **Download Julia Linux Binaries:** Use the wget command to download the latest compressed Julia Linux Binaries from the official Julia website. The command is:
     ```bash
-    wget https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.2-linux-x86_64.tar.gz
+    sudo wget --no-check-certificate https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.2-linux-x86_64.tar.gz
 * Alternate setup if the above link is not working:
     ```bash
     wget https://nftstorage.link/ipfs/bafybeibbpcxtgaxla5dl3tuzfe3qlozaga5zqpybe5dfuhehtqdpsk6t54
